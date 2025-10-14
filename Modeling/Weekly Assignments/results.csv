@@ -1,0 +1,9 @@
+model,model_params,mean_cv_accuracy,std_cv_accuracy,train_accuracy,test_accuracy,balanced_train_accuracy,balanced_test_accuracy,run_comment
+LogisticRegression,"{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': True, 'max_iter': 60000, 'solver': 'saga', 'tol': 0.01}",0.570578,0.112426,0.579104,0.58142,0.64774,0.590708,FNF_Logistic_Regression_Baseline
+LassoClassifier,"{'alpha': 0.1, 'max_iter': 60000, 'random_state': 42}",0.999686,0.000011,0.999686,0.999813,0.5,0.5,FNF Lasso Classifier - Jerry Rigged
+RidgeClassifier,"{'alpha': 100, 'class_weight': None, 'copy_X': True}",0.999686,0.000011,0.999686,0.999813,0.5,0.5,FNF Ridge Classifier
+ElasticNetClassifier,"{'alpha': 100, 'fit_intercept': True, 'l1_ratio': 0.5}",0.999686,0.000011,0.999686,0.999813,0.5,0.5,FNF Elastic Net Classifier
+LogisticRegression,"{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': True, 'max_iter': 60000, 'solver': 'saga', 'tol': 0.01}",0.644541,0.050065,0.635292,0.641735,0.742761,0.586297,PDA Logistic_Regression_Baseline
+LassoClassifier,"{'alpha': 0.1, 'max_iter': 60000, 'random_state': 42}",0.985966,0.000005,0.985966,0.987285,0.5,0.5,PDA Lasso Classifier - Jerry Rigged
+ElasticNetClassifier,"{'alpha': 100, 'fit_intercept': True, 'l1_ratio': 0.5}",0.985966,0.000005,0.985966,0.987285,0.5,0.5,PDA Elastic Net Classifier
+LogisticRegression,"{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': True, 'max_iter': 60000, 'solver': 'saga', 'tol': 0.01}",0.613019,0.127242,0.44985,0.454001,0.64872,0.57832,PDA - Baseline Logistic Regression - Scaled Data
