@@ -1,0 +1,46 @@
+model,mean_cv_accuracy,std_cv_accuracy,train_accuracy,test_accuracy,balanced_train_accuracy,balanced_test_accuracy,run_comment,week 
+LogisticRegression,0.570578,0.112426,0.579104,0.58142,0.64774,0.590708,FNF_Logistic_Regression_Baseline,2
+LassoClassifier,0.999686,0.000011,0.999686,0.999813,0.5,0.5,FNF Lasso Classifier - Jerry Rigged,2
+RidgeClassifier,0.999686,0.000011,0.999686,0.999813,0.5,0.5,FNF Ridge Classifier,2
+ElasticNetClassifier,0.999686,0.000011,0.999686,0.999813,0.5,0.5,FNF Elastic Net Classifier,2
+LogisticRegression,0.644541,0.050065,0.635292,0.641735,0.742761,0.586297,PDA Logistic_Regression_Baseline,2
+LassoClassifier,0.985966,0.000005,0.985966,0.987285,0.5,0.5,PDA Lasso Classifier - Jerry Rigged,2
+ElasticNetClassifier,0.985966,0.000005,0.985966,0.987285,0.5,0.5,PDA Elastic Net Classifier,2
+LogisticRegression,0.613019,0.127242,0.44985,0.454001,0.64872,0.57832,PDA - Baseline Logistic Regression - Scaled Data,2
+SVC,0.960104,0.004415,0.972867,0.959611,0.98624,0.573084,PDA - Baseline SVC - rbf kernel,5
+SVC,0.955951,0.004697,0.969124,0.94914,0.984342,0.567781,PDA - PCA Transformed - SVC - rbf kernel,5
+SVC,0.671331,0.018914,0.651946,0.653702,0.790637,0.534291,PDA - Different Gamma Value - PCA Transformed ...,5
+SVC,0.953649,0.004447,0.981576,0.94152,0.990555,0.518638,BDB - PCA Transformed - SVC - rbf kernel,5
+SVC,0.952888,0.005041,0.979529,0.939181,0.989505,0.51744,BDB - Linear SVC,5
+SVC,0.998537,0.000194,0.99868,0.998408,0.99934,0.499298,FNF - Baseline SVC - rbf kernel,5
+SVC,0.998547,0.000213,0.998722,0.99824,0.999361,0.499213,FNF - PCA Transformed - SVC - rbf kerne,5
+SVC,0.66068,0.015038,0.669981,0.650877,0.741417,0.540644,linear kernel - BDB - SVC,5
+SVC,0.656547,0.017538,0.64259,0.63276,0.759605,0.523685,linear kernel - PDA - SVC,5
+SVC,0.955172,0.033723,0.936298,0.936519,0.505598,0.468347,linear kernel - FNF - SVC,5
+RandomForestClassifier,0.999691,0.000015,0.999967,0.999813,0.947761,0.5,FNF - Random Forest - Tuned,6
+RandomForestClassifier,0.999691,0.000015,0.999963,0.999813,0.940299,0.5,FNF + PCA Features - Random Forest - Tuned,6
+RandomForestClassifier,0.975201,0.000348,0.997076,0.976608,0.940828,0.5,BDB + PCA - Random Forest - Tuned,6
+DecisionTreeClassifier,0.999541,0.000078,0.999813,0.999719,0.708953,0.499953,FNF + PCA Features - Decision Tree - Tuned,6
+DecisionTreeClassifier,0.999581,0.000066,0.999785,0.9997,0.656716,0.499944,FNF Features - Decision Tree - Tuned,6
+RandomForestClassifier,0.974996,0.000713,0.997076,0.976023,0.940828,0.499701,BDB - Random Forest - Tuned,6
+RandomForestClassifier,0.985666,0.000577,0.997754,0.986537,0.92,0.499621,PDA - Random Forest - Tuned,6
+DecisionTreeClassifier,0.980052,0.001904,0.991018,0.982797,0.706287,0.497727,PDA + PCA Features - Decision Tree - Tuned,6
+DecisionTreeClassifier,0.979566,0.002942,0.990082,0.982797,0.672954,0.497727,PDA - Decision Tree - Tuned,6
+DecisionTreeClassifier,0.969001,0.002206,0.979822,0.97076,0.60325,0.497006,BDB - Decision Tree - Tuned,6
+DecisionTreeClassifier,0.965902,0.003871,0.980991,0.969006,0.621152,0.496108,BDB + PCA Features - Decision Tree - Tuned,6
+GradientBoostingClassifier,0.971516,0.00182,0.997514,0.973099,0.949704,0.510404,BDB - Grad Boost - Tuned,6
+GradientBoostingClassifier,0.998898,0.000212,0.999995,0.998652,0.992537,0.499419,FNF - Grad Boost - Tuned,6
+GradientBoostingClassifier,0.977433,0.004111,0.999813,0.979806,0.993333,0.496212,PDA - Grad Boost - Tuned,6
+BaggingClassifier,0.975289,0.000285,0.975289,0.976608,0.5,0.5,BDB - Bagging Trees - Tuned,6
+BaggingClassifier,0.999686,0.000011,0.999686,0.999813,0.5,0.5,FNF - Bagging Trees - Tuned,6
+BaggingClassifier,0.985966,0.000005,0.985966,0.987285,0.5,0.5,PDA - Bagging Trees - Tuned,6
+LogisticRegression,0.666675,0.027941,0.694254,0.704678,0.652935,0.59259,BDB Forward Features - Logistic_Regression,4
+LogisticRegression,0.620591,0.14278,0.691475,0.676608,0.680347,0.566018,BDB Backward Features - Logistic_Regression,4
+LogisticRegression,0.697148,0.016413,0.697324,0.681871,0.729483,0.50771,BDB PCA Features - Logistic_Regression,4
+LogisticRegression,0.610246,0.074868,0.574371,0.576664,0.58569,0.738302,FNF PCA Features - Logistic_Regression,4
+LogisticRegression,0.562554,0.091125,0.56859,0.570728,0.63502,0.635352,FNF Backward Features - Logistic_Regression,4
+LogisticRegression,0.553176,0.052417,0.50154,0.504925,0.661168,0.602444,FNF Forward Features - Logistic_Regression,4
+LogisticRegression,0.620609,0.052367,0.651946,0.658938,0.665773,0.624042,PDA Backward Features - Logistic_Regression,4
+LogisticRegression,0.600339,0.066292,0.69985,0.706058,0.670351,0.618873,PDA Forward Features - Logistic_Regression,4
+LogisticRegression,0.643218,0.138579,0.439746,0.458489,0.623881,0.55156,PDA PCA Features - Logistic_Regression,4
+,,,,,,,,
